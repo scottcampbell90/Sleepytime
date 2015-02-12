@@ -1,0 +1,27 @@
+.header{
+	padding-top:50px;
+}
+
+.logo{
+	img{
+		width:100%;
+	}
+}
+.ohmy-logo, .yewskate-logo{
+	float:right;
+	width:25%;
+	@media(max-width:480px){
+		width:45%;
+	}
+}
+.ohmy-logo{
+margin-right:10px;
+}
+
+.social{
+font-size:36px;
+padding-top:15px;
+i{
+	color:#000;
+}
+}

@@ -1,0 +1,13 @@
+/*
+Theme Name: Sleepytime Theme
+Theme URI: http://getbootstrap.com
+Author: Me
+Author URI: http://scottdcampbell.com/
+Description: Sleepytime Theme Built with Bootstrap
+License: v1
+Text Domain: Bootstrap
+
+*/
+@import url('css/bootstrap.min.css'); 
+@import url('css/styles.css'); 
+
