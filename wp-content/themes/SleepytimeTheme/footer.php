@@ -1,5 +1,6 @@
+
       </div> <!-- /container -->
-      <hr />
+      
       <footer>
         <div class="container">
           
@@ -9,7 +10,7 @@
           <hr />
 
           <div class="text-center">
-          <p>Sleepytime Distribution | &copy; 2014</p>
+          <p>Sleepytime Distribution | &copy; 2015</p>
           </div>
         </div>
 

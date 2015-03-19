@@ -1,9 +1,10 @@
 .sidebar-widget, .footer-widget{
 	h4{
-		border-bottom:2px solid black;
+		border-bottom:1px solid black;
 	}
 	ul{
 		list-style-type:none;
+		padding-left: 10px;
 		li{
 			a{
 				color:#000;

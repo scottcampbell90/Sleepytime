@@ -8,6 +8,9 @@ a:hover {
 p {
   font-family: 'open-sans', sans-serif; }
 
+.thumbnails {
+  list-style-type: none; }
+
 .header {
   padding-top: 50px; }
 
@@ -27,26 +30,24 @@ p {
 .social {
   font-size: 36px;
   padding-top: 15px; }
-  .social i {
-    color: #000; }
 
 #navbar {
-  border-bottom: 2px solid black; }
+  border-bottom: 1px solid black; }
 
-.nav a {
+.social a, .nav a {
   color: black;
   font-size: 20px; }
-.nav li a:hover {
+ .nav li a:hover {
   background-color: black;
   color: white; }
 
-footer {
-  margin-top: 20px; }
+
 
 .sidebar-widget h4, .footer-widget h4 {
-  border-bottom: 2px solid black; }
+  border-bottom: 1px solid black; }
 .sidebar-widget ul, .footer-widget ul {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-left: 10px; }
   .sidebar-widget ul li a, .footer-widget ul li a {
     color: #000; }
 
@@ -57,3 +58,6 @@ footer {
 .post-content {
   margin-top: 20px;
   padding: 15px; }
+
+ul {
+  padding: 0px; }

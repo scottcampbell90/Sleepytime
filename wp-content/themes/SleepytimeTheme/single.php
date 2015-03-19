@@ -8,7 +8,8 @@
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 			 <h1><?php the_title(); ?></h1>
-			<p><em><?php the_time('l, F jS, Y'); ?></em></p>
+			 <p>by: <?php the_author(); ?></p>
+			<p>at: <em><?php the_time('l, F jS, Y'); ?></em></p>
 			
 			<div class="post-thumbnail">
 				<?php the_post_thumbnail('full'); ?>
@@ -19,8 +20,9 @@
 			</div>
 			
 	  		<hr>
+	  		<div class="col-md-10">
 			<?php comments_template(); ?>
-
+			</div>
 			<?php endwhile; else: ?>
 			  <p><?php _e('Sorry, this page does not exist.'); ?></p>
 			<?php endif; ?>
